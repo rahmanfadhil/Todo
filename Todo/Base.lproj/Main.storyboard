@@ -31,11 +31,19 @@
                                     <action selector="onAddTodo:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cqq-wG-e9W"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hJw-mI-shR">
+                                <rect key="frame" x="16" y="101" width="361" height="717"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <connections>
+                        <outlet property="listLabel" destination="hJw-mI-shR" id="FGT-Gv-V6l"/>
                         <outlet property="newTodoTextField" destination="0uf-cz-n7w" id="hAS-nm-eLJ"/>
                     </connections>
                 </viewController>
