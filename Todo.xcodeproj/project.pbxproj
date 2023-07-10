@@ -16,6 +16,7 @@
 		161671CB2A5C4EF000DAC351 /* TodoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 161671CA2A5C4EF000DAC351 /* TodoTests.swift */; };
 		161671D52A5C4EF000DAC351 /* TodoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 161671D42A5C4EF000DAC351 /* TodoUITests.swift */; };
 		161671D72A5C4EF000DAC351 /* TodoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 161671D62A5C4EF000DAC351 /* TodoUITestsLaunchTests.swift */; };
+		161671E42A5C576100DAC351 /* Experiment.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 161671E32A5C576100DAC351 /* Experiment.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		161671D02A5C4EF000DAC351 /* TodoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TodoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		161671D42A5C4EF000DAC351 /* TodoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoUITests.swift; sourceTree = "<group>"; };
 		161671D62A5C4EF000DAC351 /* TodoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		161671E32A5C576100DAC351 /* Experiment.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Experiment.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				161671BC2A5C4EF000DAC351 /* Assets.xcassets */,
 				161671BE2A5C4EF000DAC351 /* LaunchScreen.storyboard */,
 				161671C12A5C4EF000DAC351 /* Info.plist */,
+				161671E32A5C576100DAC351 /* Experiment.storyboard */,
 			);
 			path = Todo;
 			sourceTree = "<group>";
@@ -232,6 +235,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				161671C02A5C4EF000DAC351 /* LaunchScreen.storyboard in Resources */,
+				161671E42A5C576100DAC351 /* Experiment.storyboard in Resources */,
 				161671BD2A5C4EF000DAC351 /* Assets.xcassets in Resources */,
 				161671BB2A5C4EEF00DAC351 /* Main.storyboard in Resources */,
 			);
